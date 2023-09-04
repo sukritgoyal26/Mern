@@ -1,0 +1,23 @@
+td{
+    height: 30px;
+    width: 30%;
+}
+table{
+    border: 1px solid #E8E9EB;
+    margin: 100px;
+}
+
+thead{
+    background: #04A96D;
+    color: azure;
+    height: 30px;
+}
+
+tbody tr:nth-child(odd) {
+    background: #E8E9EB;
+}
+  
+tbody tr:nth-child(even) {
+    background: white;
+}
+
