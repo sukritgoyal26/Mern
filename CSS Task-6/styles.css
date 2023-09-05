@@ -1,0 +1,69 @@
+.content{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    
+    width: 40%;
+    /* border: 1px solid black; */
+}
+.image{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+img{
+    align-self: center;
+    border-radius: 50%;
+    height: 200px;
+}
+
+.inputs{
+    gap: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+
+    font-weight: bold;
+}
+
+.login-btn{
+    height: 40px;
+}
+.login-btn button{
+    width: 100%;
+    background-color: #4CB050;
+    color: white;
+    border: none;
+    height: 30px;
+
+    
+}
+.rem-me{
+    margin: 10px 0 10px;
+}
+.forgot-pass{
+    padding: 10px 0 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F1F1F1;
+
+}
+.forgot-pass button{
+    margin-left: 10px;
+    color: white;
+    background-color: #F04434;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+
+}
+
+.forgot-pass a{
+    margin-right: 10px;
+    color:black ;
+}
+

@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: #A22B55;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: #75203F;
+    color: azure;
+    margin: 10% 0;
+    padding: 0 10%;
+}
+
+td{
+    height: 50px;
+    text-align: start;
+    padding-left: 40px;
+    /* width: 100%; */
+    font-size: 16px;
+}
+
+input{
+    width: 60%;
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: none;
+}
+
+.list{
+    display: flex;
+}
+
+.form button{
+
+    width: 50%;
+    align-self: center;
+    border-radius: 10px;
+    height: 30px;
+    margin-bottom: 5%;
+}
+
+table{
+    border-spacing: 0px;
+}

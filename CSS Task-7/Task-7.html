@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles.css" />
+  </head>
+  <body>
+    <button><a href="../index.html">Go Back</a></button>
+    <div class="container">
+      <div class="form">
+        <table>
+          <tr>
+            <td>
+              <label for="Name">Name:</label>
+            </td>
+            <td>
+              <input
+                type="text"
+                name="Name"
+                id="Name"
+                placeholder="your name"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="Email">Email:</label>
+            </td>
+            <td>
+              <input
+                type="email"
+                name="Email"
+                id="Email"
+                placeholder="your email"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="Password">Password:</label>
+            </td>
+            <td>
+              <input type="password" name="Password" id="Password" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="phone-number">Phone Number:</label>
+            </td>
+            <td>
+              <input type="tel" name="phone-number" id="phone-number" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="Gender">Gender:</label>
+            </td>
+            <td>
+              <div class="list">
+                <label for="male">Male:</label>
+                <input type="radio" name="Gender" id="male" />
+                <label for="female">Female:</label>
+                <input type="radio" name="Gender" id="female" />
+                <label for="others">other:</label>
+                <input type="radio" name="Gender" id="others" />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="language">language:</label>
+            </td>
+            <td>
+              <select>
+                <option value="Select language">Select language</option>
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Punjabi">Punjabi</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="zip-code">zip code:</label>
+            </td>
+            <td>
+              <input type="number" name="zip-code" id="zip-code" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="about">About:</label>
+            </td>
+            <td>
+              <textarea
+                name="about"
+                id="about"
+                cols="30"
+                rows="2"
+                placeholder="Write about yourself"
+              ></textarea>
+            </td>
+          </tr>
+        </table>
+        <button>Register</button>
+      </div>
+    </div>
+  </body>
+</html>
